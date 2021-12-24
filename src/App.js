@@ -1,9 +1,14 @@
 import './App.css';
+import Appnavbar from './components/layout/AppNavbar';
 
 function App() {
   return (
     <div className="App">
-      <h1>hello</h1>
+      <Appnavbar />
+      <div className="container">
+         <h1>Hello</h1>
+      </div>
+     
     </div>
   );
 }
